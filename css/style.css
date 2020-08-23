@@ -1,0 +1,362 @@
+/**
+    Zero Project - DanZai Web. By Danis Zaidan
+    (Dilarang menjiplak/mengedit/mengakui tanpa seijin pembuat)
+    Script HTML By DANis ZAIdan
+    Script PHP By DANis ZAIdan
+    Style CSS By DANis ZAIdan
+    Copyright 2016
+**/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+}
+nav{
+    position: fixed;
+    background-color: #4B77BE;
+    height: 60px;
+    width: 100%;
+    display: block;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+    display: inline;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+li a:hover, .dropbtn:hover .dropbtn{
+    background-color: #2869bd;
+    height: 20px;
+}
+a{
+    font-family: "century gothic", lato, sans-serif;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.pencarian{
+    float: right;
+    margin: 15px 0;
+    margin-right: 15px;
+}
+.search{
+    padding: 6px 15px;
+    border: 0px solid;
+    font-family: "century gothic", lato, sans-serif;
+    width: 180px;
+}
+.button{
+    position: relative;
+    padding: 7px 13px;
+    left: -5px;
+    border: 0px solid;
+    font-family: "century gothic", lato, sans-serif;
+    background-color: #2869bd;
+    color: white;
+    cursor: pointer;
+}
+.kabeh{
+    padding-top: 5.5%;
+}
+.judul{
+    margin: 0 auto;
+    width: 75%;
+    background-color: white;
+    padding: 10px 10px;
+    height: 100%;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.judul h3{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    color: #4183D7;
+    display: block;
+}
+.home{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30pt;
+    color: #4183D7;
+}
+.home2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 15pt;
+    color: #4183D7;
+}
+.about{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 30pt;
+    color: #4183D7;
+}
+.about2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 15pt;
+    color: #4183D7;
+    width: 80%;
+    padding-top: 4%;
+    margin: 0 auto;
+}
+.ket{
+    padding-top: 2.5%;
+    padding-bottom: 0.5%;
+    margin: 0 auto;
+    width: 80%;
+}
+.ket p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 15pt;
+    color: #4183D7;
+}
+.creator{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 3% 3%;
+    box-shadow: 0px 1px 16px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+#kontak1{
+    margin: 0 auto;
+    margin-top: 5%;
+}
+#kontak1 a{
+    text-decoration: none;
+    padding: 3% 14%;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    background-color: red;
+    color: white;
+    font-size: 18pt;
+}
+#kontak1 a:hover{
+    background-color: #cc0000;
+}
+#kontak2{
+    margin: 0 auto;
+    margin-top: 8%;
+}
+#kontak2 a{
+    text-decoration: none;
+    padding: 3% 14.5%;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    background-color: green;
+    color: white;
+    font-size: 18pt;
+}
+#kontak2 a:hover{
+    background-color: #004d00;
+}
+#kontak3{
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+#kontak3 a{
+    text-decoration: none;
+    padding: 3% 13%;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    background-color: blue;
+    color: white;
+    font-size: 18pt;
+}
+#kontak3 a:hover{
+    background-color: #0000cc;
+}
+.creator img{
+    width: 200px;
+    height: 240px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.creator2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20pt;
+    color: #4B77BE;
+    text-align: center;
+    margin-bottom: 0;
+}
+/**
+    Zero Project - DanZai Web. By Danis Zaidan
+    (Dilarang menjiplak/mengedit/mengakui tanpa seijin pembuat)
+    Script HTML By DANis ZAIdan
+    Script PHP By DANis ZAIdan
+    Style CSS By DANis ZAIdan
+    Copyright 2016
+**/
+.isi{
+    margin: 20px auto;
+    width: 75%;
+    background-color: white;
+    padding: 10px 10px;
+    padding-bottom: 3%;
+    min-height: 250px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.isihome{
+    margin: 20px auto;
+    width: 75%;
+    background-color: white;
+    padding: 10px 10px;
+    padding-bottom: 6%;
+    min-height: 250px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.note{
+    font-family: nexa;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    float: right;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    color: #0000cc;
+}
+.tabel{
+    margin: 20px auto;
+    border: none;
+    text-align: center;
+    clear: both;
+    width: 96%;
+}
+.tabel td{
+    padding: 7px 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.warna{
+    background-color: #4183D7;
+    color: #FFF;
+}
+.warna2{
+    background-color: #e6e6e6;
+    text-align: left;
+}
+.warna2 a{
+    text-decoration: none;
+}
+.act{
+    background-color: #e6e6e6;
+    text-align: left;
+    width: 150px;
+}
+.action1{
+    background-color: red;
+    color: #FFF;
+    padding: 4px 17px;
+    border-radius: 4px;
+    font-size: 11pt;
+    margin-right: 7px;
+    text-decoration: none;
+}
+.action2{
+    background-color: red;
+    color: #FFF;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 11pt;
+    text-decoration: none;
+}
+.form{
+    clear: both;
+}
+.form table{
+     margin: 10px auto;
+     margin-top: 40px;
+     width: 400px;
+     font-family: nexa;
+     font-size: 16pt;
+     padding: 20px 30px;
+     padding-right: 50px;
+     box-shadow: 0px 2px 19px 2px rgba(0,0,0,0.2);
+}
+.form td{
+    display: block;
+}
+.form input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    font-size: 12pt;
+    font-family: nexa;
+    /* box-sizing: border-box; */
+}
+.form input[type="submit"]{
+    float: right;
+    margin-top: 30px;
+    padding: 10px 25px;
+    margin-bottom: 3px;
+    border: hidden;
+    cursor: pointer;
+    font-family: nexa;
+    font-size: 13pt;
+    background-color: #0000cc;
+    color: white;
+}
+.id{
+    cursor: not-allowed;
+    margin-bottom: 10px;
+    color: #0000cc;
+}
+.footer{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 75%;
+    background-color: white;
+    padding: 10px 10px;
+    height: 100%;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.footer p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 13pt;
+    color: #4183D7;
+}
+.footer a{
+    text-decoration: none;
+    color: red;
+}
+/**
+    Zero Project - DanZai Web. By Danis Zaidan
+    (Dilarang menjiplak/mengedit/mengakui tanpa seijin pembuat)
+    Script HTML By DANis ZAIdan
+    Script PHP By DANis ZAIdan
+    Style CSS By DANis ZAIdan
+    Copyright 2016
+**/
